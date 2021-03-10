@@ -25,8 +25,8 @@ task infra(dependsOn: ["copyLibs", "copyTestLibs", "jar"])
 test.dependsOn(copyPlugins)
 
 dependencies {
-    compile("org.sonarsource.sonarlint.core:sonarlint-core:2.18.0.1070")
-    compile("org.sonarsource.sonarlint.core:sonarlint-client-api:2.18.0.1070")
+    compile("org.sonarsource.sonarlint.core:sonarlint-core:2.17.0.899")
+    compile("org.sonarsource.sonarlint.core:sonarlint-client-api:2.17.0.899")
     compile("org.sonarsource.sonarlint:sonarlint-cli:2.1.0.566")
     compile("com.google.code.gson:gson:2.8.6")
 
